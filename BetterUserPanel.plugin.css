@@ -95,6 +95,6 @@
   display: none;
 }
 
-.visual-refresh [class^="panels_"]:hover vc-spotify-player {
+.visual-refresh [class^="panels_"]:hover #vc-spotify-player {
   display: block;
 }
