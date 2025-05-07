@@ -90,3 +90,11 @@
 .visual-refresh [class^="panels_"]:hover .panel__5dec7 {
   display: block;
 }
+
+.visual-refresh #vc-spotify-player {
+  display: none;
+}
+
+.visual-refresh [class^="panels_"]:hover vc-spotify-player {
+  display: block;
+}
