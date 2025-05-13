@@ -162,7 +162,7 @@
             display: none;
         }
     }
-    &:has(.vc-spotify-button-row .vc-spotify-pause) #vc-spotify-progress-bar [class^=sliderContainer_] [class^=slider_] [class^=bar_] [class^=barFill_] {
+    #vc-spotify-progress-bar [class^=sliderContainer_] [class^=slider_] [class^=bar_] [class^=barFill_] {
         background-color: transparent;
         /* wave animation */
         &::after {

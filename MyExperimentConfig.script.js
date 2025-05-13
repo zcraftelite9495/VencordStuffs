@@ -8,7 +8,6 @@
 const experiments = {
     "2025-05_mobile_video_quest_rollout": 1,
     "2025-05_reverse_trial_promotion": 1,
-    "2025-04_native_markdown": 1,
     "2025-04_rich_presence_activity_invite_redesign": 1,
     "2025-04_user_profile_modal_v2": 1,
     "2025-04_icymi_search_experience": 3,
