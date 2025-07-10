@@ -11,7 +11,7 @@
 }
 
 .membersWrap_c8ffbb {
-  --paddingY: 15px;
+  --paddingY: 50px;
   position: absolute;
   z-index: 100;
   top: 50%;
@@ -24,11 +24,14 @@
   padding-top: var(--paddingY);
   padding-bottom: var(--paddingY);
   border: 2.2px solid #242424;
-  box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px 5px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.942) 5px 5px 5px 5px;
   height: 10vh;
 }
 
 .membersWrap_c8ffbb:hover {
   transform: translate(0%, -50%) !important;
+  padding-top: 0;
+  padding-bottom: 0;
   height: auto;
 }
