@@ -6,8 +6,18 @@
  */
 
 const experiments = {
+    "2025-06_mana_desktop_modals": 1,
+    "2025-06_voice_filters_ea": 1,
+    "2025-05_client_theme_color_picker": 1,
+    "2025-05_flamingo_prefetch": 1,
+    "2025-05_tenure_ambient_badges": 1,
+    "2025-04_desktop_notification_center": 3,
+    "2025-05_enable_emoji_in_channel_names_guild": 1,
+    "2025-05_virtual_currency_onboarding_experience": 1,
     "2025-05_mobile_video_quest_rollout": 1,
     "2025-05_reverse_trial_promotion": 1,
+    "2025-04_nameplates_gifting": 1,
+    "2025-04_tenure_level_up_moment": 2,
     "2025-04_rich_presence_activity_invite_redesign": 1,
     "2025-04_user_profile_modal_v2": 1,
     "2025-04_icymi_search_experience": 3,
@@ -21,6 +31,7 @@ const experiments = {
     "2025-04_custom_status_labels": 1,
     "2025-04_gdm_bedazzling": 2,
     "2025-04_gdm_born_this_named": 1,
+    "2025-03_settings_authorized_apps_redesign": 1,
     "2025-03_unread_dm_dots_desktop": 1,
     "2025-03_activity_controller_icon": 1,
     "2025-03_activity_status_descriptive_text": 1,
