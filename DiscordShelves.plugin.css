@@ -11,7 +11,7 @@
 }
 
 .membersWrap_c8ffbb {
-  --paddingY: 50px;
+  --paddingY: 0;
   position: absolute;
   z-index: 100;
   top: 50%;
