@@ -32,39 +32,3 @@
   transform: translate(0%, -50%) !important;
   height: auto;
 }
-
-
-/* ---- Server List ---- */
-nav[class*="guilds"]::-webkit-scrollbar {
-  display: none !important;
-}
-
-nav[class*="guilds"] {
-  --paddingY: 15px;
-  position: absolute;
-  z-index: 100;
-  top: 50%;
-  max-height: 70vh;
-  overflow-y: auto;
-  transform: translate(-90%, -50%) !important;
-  transition: all 0.3s ease;
-  border-radius: 20px;
-  padding-top: var(--paddingY);
-  padding-bottom: var(--paddingY);
-  border: 2.2px solid #242424;
-  box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px 5px;
-  height: 10vh;
-}
-
-nav[class*="guilds"] div {
-  transform: scale(0);
-}
-
-nav[class*="guilds"]:hover {
-  transform: translate(0%, -50%) !important;
-  height: auto;
-}
-
-nav[class*="guilds"]:hover div {
-  transform: scale(100%);
-}
