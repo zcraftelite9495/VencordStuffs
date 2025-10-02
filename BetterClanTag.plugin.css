@@ -5,46 +5,39 @@
  * @version 1.0.0
 */
 
-[class^="chipletContainerInner_"] > span > .unselectable__10651 {
+.chipletContainerInner__10651 > .text__10651 > .tagText__10651 {
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
   max-width: 0;
   will-change: max-width, margin;
-  transition: max-width 0.7s cubic-bezier(0.34, 1.56, 0.64, 1), 
-              margin 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: max-width 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
+              margin 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
-
-[class^="chipletContainerInner_"]:hover > span > .unselectable__10651 {
+.chipletContainerInner__10651:hover > .text__10651 > .tagText__10651 {
   max-width: 20ch;
   margin-right: .3ch;
-  /* Prevents it from triggering if you just quickly mouseover :D */
   transition-delay: 0.08s;
 }
-
-[class^="chipletContainerInner_"] > span > img.badge__10651 {
+.chipletContainerInner__10651 > .text__10651 > img.badge__10651 {
   margin-right: 0;
-  transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), 
-              margin 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
+              margin 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
-
-[class^="chipletContainerInner_"]:hover > span > img.badge__10651 {
+.chipletContainerInner__10651:hover > span > img.badge__10651 {
   transform: rotateZ(360deg);
   margin-right: .6ch;
-  /* Same as above transition delay */
   transition-delay: 0.08s;
 }
-
-[class^="chipletContainerInner_"] {
+.chipletContainerInner__10651 {
   position: relative;
+  display: inline-block;
+  background-color: var(--background-mod-subtle);
+  padding: 0 2px;
+  margin-left: 0;
 }
-
-[class^="chipletContainerInner_"]::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  pointer-events: none;
+.chipletContainerInner__10651:hover ~ .tagText__10651 {
+  display: block;
+  clear: both;
+  margin-top: .5ch;
 }
