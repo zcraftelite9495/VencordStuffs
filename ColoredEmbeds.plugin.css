@@ -5,7 +5,7 @@
  * @version 1.0.0
 */
 
-.embedFull__623de {
+._623de82e76ad7f82-embedFull {
     overflow: hidden;
 
     &::before {
@@ -22,10 +22,10 @@
         border-radius: 0px 8px 8px 0px;
     }
 
-    .gridContainer__623de {
+    ._623de82e76ad7f82-gridContainer {
         z-index: 2;
     }
 }
-.withAccentColor__60fa3 {
+._60fa3b8f3ca9845f-withAccentColor {
     background: color-mix(in srgb, var(--background-surface-high), var(--__accent-color) 25%);
 }

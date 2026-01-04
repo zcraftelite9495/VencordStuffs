@@ -6,11 +6,11 @@
 */
 
 /* ---- Member List ---- */
-.membersWrap_c8ffbb::-webkit-scrollbar {
+.c8ffbb79449f399c-membersWrap::-webkit-scrollbar {
   display: none !important;
 }
 
-.membersWrap_c8ffbb {
+.c8ffbb79449f399c-membersWrap {
   --paddingY: 0;
   position: absolute;
   z-index: 100;
@@ -29,7 +29,7 @@
   height: 10vh;
 }
 
-.membersWrap_c8ffbb:hover {
+.c8ffbb79449f399c-membersWrap:hover {
   transform: translate(0%, -50%) !important;
   padding-top: 0;
   padding-bottom: 0;

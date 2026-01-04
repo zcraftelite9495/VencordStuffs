@@ -40,7 +40,7 @@
   [data-author-self=true] [class*=container]:not([class*=shiki]){
     direction: rtl;
     text-align: right;
-	 padding-right: 2rem;
+   padding-right: 2rem;
   }
 
 
@@ -57,10 +57,10 @@
     margin-right: 2vw;
 }
 
-.horizontal_b26b79{
+.b26b790fd1005393-horizontal{
   margin-left: -3.3rem;
 }
-.vertical_b26b79{
+.b26b790fd1005393-vertical{
   margin: 1vw  2.36vw -4vw !important;
 }
 
@@ -155,16 +155,16 @@
     padding-bottom: 8px;
   }
 
-  #app-mount .mentioned__5126c .contents_c19a55 .messageContent_c19a55 {
+  #app-mount ._5126c0cd07f243a0-mentioned .c19a557985eb7793-contents .c19a557985eb7793-messageContent {
     background-color: var(--mention);
   }
 
-  #app-mount .mentioned__5126c:hover .contents_c19a55  .messageContent_c19a55,
-  #app-mount .mentioned__5126c.selected__5126c .contents_c19a55 .messageContent_c19a55 {
+  #app-mount ._5126c0cd07f243a0-mentioned:hover .c19a557985eb7793-contents  .c19a557985eb7793-messageContent,
+  #app-mount ._5126c0cd07f243a0-mentioned._5126c0cd07f243a0-selected .c19a557985eb7793-contents .c19a557985eb7793-messageContent {
     background-color: var(--defaultMessageColor);
   }
 
-  #app-mount .mentioned__5126c .contents_c19a55 .messageContent_c19a55::before {
+  #app-mount ._5126c0cd07f243a0-mentioned .c19a557985eb7793-contents .c19a557985eb7793-messageContent::before {
     content: "";
     position: absolute;
     display: block;
@@ -177,7 +177,7 @@
     z-index: 1;
   }
   
-  #app-mount .repliedMessage_c19a55 {
+  #app-mount .c19a557985eb7793-repliedMessage {
     background-color: var(--message-hover);
     margin-bottom: 0;
     padding: 6px;

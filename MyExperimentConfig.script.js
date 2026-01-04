@@ -8,6 +8,7 @@
 const experiments = {
     "2025-10-clicker-game": 1,
     "2025-10_icymi_desktop_client": 1,
+    "2025-10_desktop_land_and_learn": 1,
     "2025-09_you_bar": 3,
     "2025-09-user-profile-application-widgets-viewing": 1,
     "2025-09-user-profile-wishlist-editing": 1,
