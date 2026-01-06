@@ -19,6 +19,9 @@
 
 /* ------------------------------ */
 
+._37e49614b9f110a9-container ._37e49614b9f110a9-buttons { display: none; }
+._37e49614b9f110a9-container:hover ._37e49614b9f110a9-buttons { display: flex; }
+
 ._5e434347c823b592-panels,
 ._5e434347c823b592-panels {
     left: var(--space-sm) !important;
